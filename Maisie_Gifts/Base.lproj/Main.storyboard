@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="114.50892857142857"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="hjf-Gp-DlY">
             <objects>
-                <viewController id="emo-eC-PDP" sceneMemberID="viewController">
+                <viewController id="emo-eC-PDP" customClass="SecondViewController" customModule="Maisie_Gifts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Wc-0L-Fhu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="1768.1159420289857" y="114.50892857142857"/>
         </scene>
-        <!--View Controller-->
+        <!--Results View Controller-->
         <scene sceneID="qIx-ZQ-6qq">
             <objects>
-                <viewController id="jyD-KB-ARS" sceneMemberID="viewController">
+                <viewController id="jyD-KB-ARS" customClass="ResultsViewController" customModule="Maisie_Gifts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7wU-9M-MTe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
