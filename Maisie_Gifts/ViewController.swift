@@ -9,12 +9,31 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var x = 5
+     var group = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        while group == true {
+            x += 1
+            print(x)
+        }
+        
+        if x == 4000000 {
+            group = false
+        }
+        
+        
+        }
+        
+   
+        
+    
 
+    
+    
+    
+    
 
 }
 
