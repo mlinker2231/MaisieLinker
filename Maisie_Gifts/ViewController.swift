@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     var x = 5
-    let group = true
+     var group = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,9 @@ class ViewController: UIViewController {
             print(x)
         }
         
+        if x == 4000000 {
+            group = false
+        }
         
         
         }
