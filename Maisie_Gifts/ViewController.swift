@@ -14,14 +14,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if x == 50 {
+            group = false
+            
+        }
+        
+        
         while group == true {
             x += 1
             print(x)
+
+            
         }
         
-        if x == 4000000 {
-            group = false
-        }
+       
         
         
         }
